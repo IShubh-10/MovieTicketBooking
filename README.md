@@ -1,6 +1,3 @@
-# MovieTicketBooking
-I have developed this web Application using Java.
-
 
 # Movie Ticket Booking Application
 
