@@ -52,11 +52,9 @@ String login=(String)session.getAttribute("login");
 						<li class="nav-item active"><a class="nav-link" href="Index.jsp">Home<span
 								class="sr-only">(current)</span></a></li>
 
-						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-
 						<li class="nav-item"><a class="nav-link" href="MovieServlet?process=allMovies">Movies</a>
 						</li>
-
+							<%if(login!=null){ %>
 						<li class="nav-item dropdown"><a
 							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 							role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -79,18 +77,28 @@ String login=(String)session.getAttribute("login");
 								<%} %>
 								
 							</div></li>
+							<%} %>
 						<%
 						if(login==null){
 						%>
 						<li class="nav-item"><a class="nav-link" href="Login.jsp">Login</a></li>
 						<li class="nav-item"><a class="nav-link" href="AddCustomer.jsp">Register</a></li>
 						<%} %>
-						
-						<!-- <li class="nav-item"><a class="nav-link" href="#">Profile</a></li> -->
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a>
 						<% if(login!=null){ %>
 						<li class="nav-item"><a class="nav-link" onclick="return confirm('Are you sure you want to logout?')" href="LoginServlet">logout</a></li>
 						<%} %>
+						
+						<li class="nav-item dropdown"><a
+							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+							role="button" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false"> Social's </a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="https://www.instagram.com/filmatic/">Instagram</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://linkedin.com/in/shubham-kadam-3a9043202">LinkedIn</a>
+							</div></li>
+						<!-- <li class="nav-item"><a class="nav-link" href="#">Profile</a></li> -->
+						<li class="nav-item"><a class="nav-link" href="AboutPage.jsp">About</a></li>
 						</li>
 					</ul>
 				</div>

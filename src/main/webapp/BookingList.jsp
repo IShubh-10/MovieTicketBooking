@@ -15,8 +15,9 @@
 		<section class="py-5">
 		<div class="container bg-white">
 		<div class="moviecontainer">
-		<div class="container">
+		<div class="container" style="padding: 30px">
 		<jsp:include page="Message.jsp"></jsp:include>
+		
 <table style="text-align: center;" class="table table-success">
 <tr>
 <th>BookingNumber</th>

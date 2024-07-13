@@ -46,7 +46,7 @@ List<String> reservedSeats=(List<String>)session.getAttribute("reservedSeats");
 	<section class="py-5">
 	<div class="container bg-white">
 		<div class="moviecontainer">
-		<div class="container">
+		<div class="container" style="padding: 30px">
 		<jsp:include page="Message.jsp"></jsp:include>
 		
 		<div class="container"  >
@@ -54,7 +54,7 @@ List<String> reservedSeats=(List<String>)session.getAttribute("reservedSeats");
 		<table id="seatsBlock" align="center"style="color:black;">
 			<tr>
 				<td colspan="14"><div class="screen">SCREEN</div></td>
-				<td rowspan="20">
+				<td rowspan="20" style="padding-left: 3rem;">
 					<div class="smallBox greenBox">Selected Seat</div> <br />
 					<div class="smallBox redBox">Reserved Seat</div> <br />
 					<div class="smallBox emptyBox">Empty Seat</div> <br />
@@ -108,6 +108,7 @@ Movie m=s.getM();
 String email=(String)session.getAttribute("username");
 Customer c=new CustomerDaoImpl().searchCustomerByEmail(email);
 %>
+
 	<div class="displayerBoxes column " style="margin-top: 50px; display: none;"   >
 		<form action="BookingServlet" method="post">
 		<input type="hidden" name="process" value="confirmBooking"> 

@@ -13,9 +13,9 @@ String errorMsg=(String)request.getAttribute("errorMsg");
 %>
 
 <% if(msg!=null){ %>
-<h3 style="color: lime; text-align: center;"><%= msg %></h3>
+<marquee direction="right" style="text-align: center; color: white;"><h3 class="badge bg-success">${ msg}</h3></marquee>
 <%}else if(errorMsg!=null){ %>
-<h3 style="color: red; text-align: center;"><%= errorMsg %></h3>
+<marquee direction="right" style="text-align: center; color: white;"><h3 class="badge bg-danger">${ errorMsg}</h3></marquee>
 <%} %>
 </body>
 </html>

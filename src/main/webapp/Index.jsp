@@ -17,21 +17,21 @@
 	    </ol>
 	    <div class="carousel-inner" role="listbox">
 	      <!-- Slide Three - Set the background image for this slide in the line below -->
-	      <div class="carousel-item" style="background-image: url('images/RC.jpg')">
+	      <div class="carousel-item" style="background-image: url('images/toy-story.jpg')">
 	        <div class="carousel-caption d-none d-md-block">
 	        <!--   <h2 class="display-4">Third Slide</h2>
 	          <p class="lead">This is a description for the third slide.</p> -->
 	        </div>
 	      </div>
 	      <!-- Slide One - Set the background image for this slide in the line below -->
-	      <div class="carousel-item active" style="background-image: url('images/bollywoodbannerfinal.jpg')">
+	      <div class="carousel-item active" style="background-image: url('images/up.jpg')">
 	        <div class="carousel-caption d-none d-md-block">
 	          <!-- <h2 class="display-4">First Slide</h2>
 	          <p class="lead">This is a description for the first slide.</p> -->
 	        </div>
 	      </div>
 	      <!-- Slide Two - Set the background image for this slide in the line below -->
-	      <div class="carousel-item" style="background-image: url('images/akshay-kumars-laxmmi-bomb-hardly-a-diwali-fare-920x518.jpg')">
+	      <div class="carousel-item" style="background-image: url('images/inside-out.jpg')">
 	        <div class="carousel-caption d-none d-md-block">
 	          <!-- <h2 class="display-4">Second Slide</h2>
 	          <p class="lead">This is a description for the second slide.</p> -->
@@ -54,7 +54,6 @@
 		<div class="moviecontainer">
 		<div class="container">
 		<jsp:include page="Message.jsp"></jsp:include>
-		
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <div class="section-heading">
@@ -65,7 +64,7 @@
         </div>
       </div>
 	  <div class="movie-card">
-		<div class="movie-header movieimage" style="background-image: url('images/3-Walmart-Superman-a.jpg');">
+		<div class="movie-header movieimage" style="background-image: url('images/fast-x.jpg');">
 			<div class="header-icon-container">
 				<a href="#">
 					<i class="material-icons header-icon"> </i>
@@ -75,7 +74,7 @@
 		<div class="movie-content">
 			<div class="movie-content-header">
 				<a href="#">
-					<h3 class="movie-title">Man of Steel</h3>
+					<h3 class="movie-title">Fast - X</h3>
 				</a>
 				<div class="imax-logo"></div>
 			</div>
@@ -83,25 +82,25 @@
 				
 				<div class="info-section">
 					<label>Producer</label>
-					<span>Abc</span>
+					<span>Neal H. Moritz</span>
 				</div><!--Producer-->
 				<div class="info-section">
 					<label>Director</label>
-					<span>Mno</span>
+					<span>Louis Leterrier</span>
 				</div><!--Director-->
 				<div class="info-section">
 					<label>Writer</label>
-					<span>PQR</span>
+					<span>Dan Mazeau</span>
 				</div><!--Director-->
 			</div>
 			<div class="movie-info">
 				<div class="info-section">
 					<label>Cast </label>
-					<span>Sun 8 Sept </span>
+					<span>Vin Diesel<br>  Cody Walker </span>
 				</div><!--cast-->
 				<div class="info-section">
 					<label>Release Date </label>
-					<span>Sun 8 Sept </span>
+					<span>19 Dec 2023 </span>
 				</div><!--date-->
 			</div>
 			<div  class="movie-info">
@@ -112,7 +111,7 @@
 		</div><!--movie-content-->
 	</div><!--movie-card-->
 	<div class="movie-card">
-		<div class="movie-header movieimage" style="background-image: url('http://henrycavill.org/images/Films/2013-Man-of-Steel/posters/3-Walmart-Superman-a.jpg');">
+		<div class="movie-header movieimage" style="background-image: url('images/Jawan.jpg');">
 			<div class="header-icon-container">
 				<a href="#">
 					<i class="material-icons header-icon"> </i>
@@ -122,7 +121,7 @@
 		<div class="movie-content">
 			<div class="movie-content-header">
 				<a href="#">
-					<h3 class="movie-title">Man of Steel</h3>
+					<h3 class="movie-title">Jawan</h3>
 				</a>
 				<div class="imax-logo"></div>
 			</div>
@@ -130,36 +129,36 @@
 				
 				<div class="info-section">
 					<label>Producer</label>
-					<span>Abc</span>
+					<span>Red Chillies</span>
 				</div><!--Producer-->
 				<div class="info-section">
 					<label>Director</label>
-					<span>Mno</span>
+					<span>Atlee Kumar</span>
 				</div><!--Director-->
 				<div class="info-section">
 					<label>Writer</label>
-					<span>PQR</span>
+					<span>T. Muthuraj</span>
 				</div><!--Director-->
 			</div>
 			<div class="movie-info">
 				<div class="info-section">
 					<label>Cast </label>
-					<span>Sun 8 Sept </span>
+					<span>Shahrukh Khan<br> Nayantara </span>
 				</div><!--cast-->
 				<div class="info-section">
 					<label>Release Date </label>
-					<span>Sun 8 Sept </span>
+					<span>7 Sept 2023 </span>
 				</div><!--date-->
 			</div>
 			<div  class="movie-info">
 				<div  class="info-section">
-					<a class="btn btn-primary ml-auto" href="#" role="button">Show's</a>
+					<a class="btn btn-primary ml-auto" href="#" role="button">Coming Soon...</a>
 				</div>
 			</div>
 		</div><!--movie-content-->
 	</div><!--movie-card-->
 	  <div class="movie-card">
-		<div class="movie-header movieimage" style="background-image: url('http://henrycavill.org/images/Films/2013-Man-of-Steel/posters/3-Walmart-Superman-a.jpg');">
+		<div class="movie-header movieimage" style="background-image: url('images/Gadar.jpg');">
 			<div class="header-icon-container">
 				<a href="#">
 					<i class="material-icons header-icon"> </i>
@@ -169,7 +168,7 @@
 		<div class="movie-content">
 			<div class="movie-content-header">
 				<a href="#">
-					<h3 class="movie-title">Man of Steel</h3>
+					<h3 class="movie-title">Gadar 2</h3>
 				</a>
 				<div class="imax-logo"></div>
 			</div>
@@ -177,25 +176,25 @@
 				
 				<div class="info-section">
 					<label>Producer</label>
-					<span>Abc</span>
+					<span>Zee Studios</span>
 				</div><!--Producer-->
 				<div class="info-section">
 					<label>Director</label>
-					<span>Mno</span>
+					<span>Anil Sharma</span>
 				</div><!--Director-->
 				<div class="info-section">
 					<label>Writer</label>
-					<span>PQR</span>
+					<span>Najeeb Khan</span>
 				</div><!--Director-->
 			</div>
 			<div class="movie-info">
 				<div class="info-section">
 					<label>Cast </label>
-					<span>Sun 8 Sept </span>
+					<span>Sunny Deol<br> Ameesha Patel</span>
 				</div><!--cast-->
 				<div class="info-section">
 					<label>Release Date </label>
-					<span>Sun 8 Sept </span>
+					<span>11 Aug 2023 </span>
 				</div><!--date-->
 			</div>
 			<div  class="movie-info">
@@ -206,7 +205,7 @@
 		</div><!--movie-content-->
 	</div><!--movie-card-->
 	<div class="movie-card">
-		<div class="movie-header movieimage" style="background-image: url('http://henrycavill.org/images/Films/2013-Man-of-Steel/posters/3-Walmart-Superman-a.jpg');">
+		<div class="movie-header movieimage" style="background-image: url('images/Yodha.jpg');">
 			<div class="header-icon-container">
 				<a href="#">
 					<i class="material-icons header-icon"> </i>
@@ -217,37 +216,131 @@
 		<div class="movie-content">
 			<div class="movie-content-header">
 				<a href="#">
-					<h3 class="movie-title">Man of Steel</h3>
+					<h3 class="movie-title">Yodha</h3>
 				</a>
 				<div class="imax-logo"></div>
 			</div>
 			<div class="movie-info">
 				<div class="info-section">
 					<label>Producer</label>
-					<span>Abc</span>
+					<span>Karan Johar</span>
 				</div><!--Producer-->
 				<div class="info-section">
 					<label>Director</label>
-					<span>Mno</span>
+					<span>Pushkar Ojha</span>
 				</div><!--Director-->
 				<div class="info-section">
 					<label>Writer</label>
-					<span>PQR</span>
+					<span>Sagar Ambre</span>
 				</div><!--Director-->
 			</div>
 			<div class="movie-info">
 				<div class="info-section">
 					<label>Cast </label>
-					<span>Sun 8 Sept </span>
+					<span>Sidharth Malhotra<br> Disha Patani </span>
 				</div><!--cast-->
 				<div class="info-section">
 					<label>Release Date </label>
-					<span>Sun 8 Sept </span>
+					<span>15 Sept 2023 </span>
 				</div><!--date-->
 			</div>
 			<div  class="movie-info">
 				<div  class="info-section">
-					<a class="btn btn-primary ml-auto" href="#" role="button">Show's</a>
+					<a class="btn btn-primary ml-auto" href="#" role="button">Coming Soon...</a>
+				</div>
+			</div>
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+	<div class="movie-card">
+		<div class="movie-header movieimage" style="background-image: url('images/Maidan.jpg');">
+			<div class="header-icon-container">
+				<a href="#">
+					<i class="material-icons header-icon"> </i>
+				</a>
+			</div>
+		</div>
+		<!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a href="#">
+					<h3 class="movie-title">Maidaan</h3>
+				</a>
+				<div class="imax-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Producer</label>
+					<span>Karan Johar</span>
+				</div><!--Producer-->
+				<div class="info-section">
+					<label>Director</label>
+					<span>Pushkar Ojha</span>
+				</div><!--Director-->
+				<div class="info-section">
+					<label>Writer</label>
+					<span>Sagar Ambre</span>
+				</div><!--Director-->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Cast </label>
+					<span>Sidharth Malhotra<br> Disha Patani </span>
+				</div><!--cast-->
+				<div class="info-section">
+					<label>Release Date </label>
+					<span>15 Sept 2023 </span>
+				</div><!--date-->
+			</div>
+			<div  class="movie-info">
+				<div  class="info-section">
+					<a class="btn btn-primary ml-auto" href="#" role="button">Coming Soon...</a>
+				</div>
+			</div>
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+	<div class="movie-card">
+		<div class="movie-header movieimage" style="background-image: url('images/Aquaman.jpg');">
+			<div class="header-icon-container">
+				<a href="#">
+					<i class="material-icons header-icon"> </i>
+				</a>
+			</div>
+		</div>
+		<!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a href="#">
+					<h3 class="movie-title">Aquaman </h3>
+				</a>
+				<div class="imax-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Producer</label>
+					<span>Peter Safran</span>
+				</div><!--Producer-->
+				<div class="info-section">
+					<label>Director</label>
+					<span>James Wan</span>
+				</div><!--Director-->
+				<div class="info-section">
+					<label>Writer</label>
+					<span>James wan</span>
+				</div><!--Director-->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Cast </label>
+					<span>Jason Momoa<br> Amber Heard</span>
+				</div><!--cast-->
+				<div class="info-section">
+					<label>Release Date </label>
+					<span>20 Dec 2023 </span>
+				</div><!--date-->
+			</div>
+			<div  class="movie-info">
+				<div  class="info-section">
+					<a class="btn btn-primary ml-auto" href="#" role="button">Coming Soon...</a>
 				</div>
 			</div>
 		</div><!--movie-content-->

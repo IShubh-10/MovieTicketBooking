@@ -48,19 +48,19 @@
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
-
+	
 	<!-- main Content if any -->
 	<section class="py-5">
 		<div class="container bg-white">
 			<div class="moviecontainer">
-				<div class="container">
-					<jsp:include page="Message.jsp"></jsp:include>
+				<div class="container" style="padding: 30px">
+					<jsp:include page="Message.jsp"></jsp:include>	
 
 					<form action="CustomerServlet" method="post">
 						<input type="hidden" name="process" value="editCustomer">
 						<input type="hidden" name="cId" value="${custObj.cId }">
 
-						<table style="text-align: center;" class="table table-success">
+						<table style="text-align: left;" class="table table-success">
 							<tr>
 								<th>Customer name</th>
 								<td><input type="text" name="cname"
@@ -107,15 +107,14 @@
 							</tr>
 
 							<tr>
-								<td><input type="reset" value="Clear"
-									class="btn btn-outline-warning"></td>
-								<td><input type="submit" value="Update"
-									class="btn btn-outline-success"></td>
 								<td><a
 									href="CustomerServlet?process=deleteProfile&cId=${custObj.cId }"
-									class="btn btn-danger"
+									class="btn btn-outline-danger"
 									onclick="return confirm('Are you sure you want to delete your account')">Delete
 										my profile</a></td>
+								<td><input type="submit" value="Update"
+									class="btn btn-outline-success"></td>
+								
 							</tr>
 						</table>
 					</form>
